@@ -1,16 +1,88 @@
-# app
+# Base Flutter + Supabase Project
 
-A new Flutter project.
+## 🚀 Overview
 
-## Getting Started
+This project is built with Flutter and Supabase to create a full-stack mobile application with authentication, database, and storage functionalities.
 
-This project is a starting point for a Flutter application.
+## 🛠 Tech Stack
 
-A few resources to get you started if this is your first Flutter project:
+- **Frontend:** Flutter, Dart
+- **Backend:** Supabase (PostgreSQL, Authentication, Storage, Functions)
+- **State Management:** Provider, Riverpod, or Bloc (choose accordingly)
+- **Deployment:** Play Store, App Store, Firebase App Distribution
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 📌 Features
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<!-- - User Authentication (Sign up, Sign in, Sign out) -->
+
+- Database Integration with Supabase
+- API Routes with Next.js
+- Realtime Data Updates
+- Secure Role-Based Access
+- Storage for File Uploads
+
+## 🏗 Installation & Setup
+
+**1️⃣ Clone the Repository**
+
+```sh
+git clone https://github.com/yassar021/mobile-flutter.git
+cd your-repo
+```
+
+**2️⃣ Install Dependencies**
+
+```sh
+flutter pub get
+```
+
+**3️⃣ Set Up Environment Variables**
+
+```sh
+SUPABASE_URL=your_supabase_url
+SUPABASE_ANON_KEY=your_anon_key
+SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
+```
+
+**4️⃣ Run the Development Server**
+
+```sh
+flutter run
+```
+
+This will launch the app on the connected emulator or device.
+
+## 🚀 Deployment
+
+**Build and Release**
+
+- Android
+  ```sh
+  flutter build apk
+  flutter build appbundle
+  ```
+- iOS
+  `sh
+  flutter build ios
+  `
+  Make sure to set up Xcode and an Apple Developer Account.
+
+## 📂 Project Structure
+
+```bash
+├── lib/
+│   ├── main.dart
+│   ├── screens/
+│   ├── components/
+│   ├── providers/
+│   ├── services/
+│   ├── utils/
+├── assets/               # Static assets (images, fonts, etc.)
+├── pubspec.yaml          # Flutter dependencies
+└── README.md             # Project documentation
+```
+
+## 🙌 Acknowledgments
+
+- [Flutter Docs](https://docs.flutter.dev/)
+- [Supabase](https://supabase.com/)
